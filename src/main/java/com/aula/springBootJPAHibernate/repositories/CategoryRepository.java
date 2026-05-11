@@ -1,0 +1,7 @@
+package com.aula.springBootJPAHibernate.repositories;
+
+import com.aula.springBootJPAHibernate.entities.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
